@@ -34,3 +34,9 @@ wait.c & wait2.c The `wait()` system call suspends execution of the calling proc
 ## Super Simple Shell
 
 - SSshell.c: Using the above, this is a first version of a super simple shell that can run commands with their full path, without any argument.
+<hr>
+
+## Stat system Call
+
+- stat.c: The `stat()` system call gets the status of a file. On success, zero is returned. On error, -1 is returned.
+- Used to get information about a file. It takes a filename as input and fills a structure of type struct stat with information about the file. The struct stat contains information such as the file size, permissions, owner, group, and timestamps.
