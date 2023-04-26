@@ -11,7 +11,7 @@ int main(void)
 		printf("$ ");
 		fflush(stdout);
 		j = getline(&input, &i, stdin);
-		printf("%sContains %ld charachter\n", input, j);
+		printf("%sContains %ld charachter\n", input, j - 1);
 	}
 	free(input);
 	return (0);
