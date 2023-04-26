@@ -1,6 +1,7 @@
 #include <stdio.h>
 #include <unistd.h>
 
+// The environ variable is an array of strings that contains the environment variables
 extern char **environ;
 
 int main(void)
