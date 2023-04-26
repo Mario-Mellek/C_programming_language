@@ -9,7 +9,7 @@
 - strtok.c: A function that splits a string and returns an array of each word of the string.
 <hr>
 
-## Executing a program:
+## Executing a program
 
 - exec.c: The system call execve allows a process to execute another program (man 2 execve). Note that this system call does load the new program into the current process’ memory in place of the “previous” program: on success execve does not return to continue the rest of the “previous” program.
 - The environ variable is an array of strings that contains the environment variables
