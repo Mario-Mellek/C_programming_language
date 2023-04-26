@@ -5,3 +5,4 @@
 - maximumPID: A shell script that prints the maximum value a process ID can be.
 - av.c: A program that prints all the arguments, without using ac.
 - ReadLine.c: A program that prints "$ ", wait for the user to enter a command, prints it on the next line.
+- strtok.c: A function that splits a string and returns an array of each word of the string.
