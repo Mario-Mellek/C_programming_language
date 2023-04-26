@@ -24,3 +24,8 @@
 
 ## Wait
 wait.c & wait2.c The `wait()` system call suspends execution of the calling process until one of its children terminates.
+<hr>
+
+## fork + wait + execve
+
+- fiveChildren.c: program that executes the command ls -l /tmp in 5 different child processes. Each child should be created by the same process (the father). Wait for a child to exit before creating a new child.
