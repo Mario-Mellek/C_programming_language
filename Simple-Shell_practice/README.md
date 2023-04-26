@@ -20,3 +20,7 @@
 - fork.c: The system call fork (man 2 fork) creates a new child process, almost identical to the parent (the process that calls fork). Once fork successfully returns, two processes continue to run the same program, but with different stacks, datas and heaps.
 
 - forkChild.c: Using the return value of fork, it is possible to know if the current process is the father or the child: fork will return 0 to the child, and the PID of the child to the father.
+<hr>
+
+## Wait
+wait.c & wait2.c The `wait()` system call suspends execution of the calling process until one of its children terminates.
