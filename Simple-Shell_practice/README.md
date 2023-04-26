@@ -29,3 +29,8 @@ wait.c & wait2.c The `wait()` system call suspends execution of the calling proc
 ## fork + wait + execve
 
 - fiveChildren.c: program that executes the command ls -l /tmp in 5 different child processes. Each child should be created by the same process (the father). Wait for a child to exit before creating a new child.
+<hr>
+
+## Super Simple Shell
+
+- SSshell.c: Using the above, this is a first version of a super simple shell that can run commands with their full path, without any argument.
