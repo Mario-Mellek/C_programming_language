@@ -40,3 +40,16 @@ wait.c & wait2.c The `wait()` system call suspends execution of the calling proc
 
 - stat.c: The `stat()` system call gets the status of a file. On success, zero is returned. On error, -1 is returned.
 - Used to get information about a file. It takes a filename as input and fills a structure of type struct stat with information about the file. The struct stat contains information such as the file size, permissions, owner, group, and timestamps.
+- buf is a variable of type struct stat used to store the file info
+The members of the struct stat are as follows:
+
+- `st_dev`: ID of device containing file
+- `st_ino`: Inode number
+- `st_mode`: Protection mode; see also Unix permissions
+- `st_nlink`: Number of hard links
+- `st_uid`: User ID of owner
+- `st_gid`: Group ID of owner
+- `st_rdev`: Device ID (if special file)
+- `st_size`: Total size, in bytes
+- `st_blksize`: Block size for filesystem I/O
+- `st_blocks`: Number of 512B blocks allocated
