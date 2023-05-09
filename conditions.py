@@ -13,5 +13,5 @@ while number > 0:
 
 
 
-for i in [0, 1, 2]:
-    print("for loop??")
+for i in range(3):
+    print(f"for loop??\n{i}\n")
