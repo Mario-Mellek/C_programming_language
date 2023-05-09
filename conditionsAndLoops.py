@@ -1,7 +1,7 @@
 for i in range(1, 10):
     if i <= 5:
-        print("AAAHHHH")
+        print(f"5{i}")
     elif i >= 8 and i <= 8:
-        print("WHERE ALL THE BRACKETS??")
+        print(f"from 5 to 8 {i}")
     else:
-        print("HOW DO YOU READ THIS!!!")
+        print(f"HOW DO YOU READ THIS!!!{i}")
