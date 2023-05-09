@@ -10,3 +10,13 @@
 - tuple
 - dict
 - set
+
+
+
+Training wheels:
+
+get_float
+get_int
+get_string
+
+provided by cs50 lib
