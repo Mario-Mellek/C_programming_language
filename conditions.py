@@ -11,7 +11,5 @@ while number > 0:
     print("Hello, world")
     number -= 1
 
-
-
 for i in range(3):
     print(f"for loop??\n{i}\n")
