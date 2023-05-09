@@ -5,3 +5,11 @@ for i in range(1, 10):
         print(f"from 5 to 8 {i}")
     else:
         print(f"HOW DO YOU READ THIS!!!{i}")
+
+print("-------------------------")
+
+name = "Mario"
+print(len(name))
+
+for i in range(len(name)):
+    print(f"Here: {i}")
