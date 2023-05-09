@@ -5,4 +5,8 @@
 - float
 - int
 - str
-- 
+- range
+- list
+- tuple
+- dict
+- set
