@@ -17,9 +17,9 @@ for i in range(len(name)):
 print("-------------------------")
 
 for n in range(2, 10):
-    print(f"n = {n}")
+    print('n', "equals", n)
     for x in range(2, n):
-        print(f:"x = {x}")
+        print('x', "equals", x)
         if n % x == 0:
             print(n, 'equals', x, '*', n//x)
             break
