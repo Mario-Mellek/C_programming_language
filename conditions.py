@@ -5,3 +5,7 @@ elif number < 5:
     print("less than 5")
 else:
     print("Equal to 5")
+
+
+while True:
+    print("Hello, world")
