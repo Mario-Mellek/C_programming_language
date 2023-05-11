@@ -5,4 +5,4 @@ import sys
 print("Number of Args: {}".format(len(sys.argv)))
 
 for x in sys.argv:
-    print("Argv[{}] = {}".format(x, sys.argv[x]))
+    print(sys.argv[x])
