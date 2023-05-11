@@ -3,7 +3,7 @@ def prime(n):
         print("Prime Numbers are greater than 1")
         return
     if n > 1:
-        for i in range(2, n):
+        for i in range(2, n + 1):
             if (n % i) == 0:
                 print(f"{n} isn't a prime number")
                 return
