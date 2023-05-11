@@ -1,3 +1,6 @@
-import python.python_modules.module as module
+# import module
+# module.prime(2)
 
-module.prime(2)
+from module import prime
+
+prime(2)
