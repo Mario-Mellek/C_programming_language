@@ -1,3 +1,14 @@
+### Different ways to import
+
+# from module import prime
+# prime(2)
+
+# import module as mod
+# mod.prime(2)
+
+# from module import *
+# module.prime(2)
+
 import module
 import math
 import datetime
@@ -16,9 +27,3 @@ print("\n ------------------ \n")
 
 li = ["Car", "Bike", "Jet", "Boat"]
 print(random.choice(li))
-
-# from module import prime
-# prime(2)
-
-# import module as mod
-# mod.prime(2)
