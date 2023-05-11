@@ -2,7 +2,7 @@ import sys
 
 # print(len(sys.argv))
 
-n = len(sys.argv)
+print("Number of Args: {}".format(len(sys.argv)))
 
-for x in range(1, n):
-    print(sys.argv[x])
+for x in sys.argv:
+    print("Argv[{}] = {}".format(x, sys.argv[x]))
