@@ -12,7 +12,7 @@ print(datetime.date.today())
 print(datetime.datetime.now())
 print(datetime.datetime.now().time())
 
-print(\n ------------------ \n)
+print("\n ------------------ \n")
 
 li = ["Car", "Bike", "Jet", "Boat"]
 print(random.choice(li))
