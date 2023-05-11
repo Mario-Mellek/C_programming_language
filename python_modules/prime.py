@@ -12,4 +12,4 @@ def prime(n):
                 return
 
 
-prime(4)
+prime(7)
