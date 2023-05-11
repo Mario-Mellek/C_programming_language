@@ -1,6 +1,5 @@
 import sys
 
-
 print("\nNumber of Args: {}\n".format(len(sys.argv) - 1))
 
 arg = sys.argv[1]
